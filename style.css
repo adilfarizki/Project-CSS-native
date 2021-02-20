@@ -1,0 +1,102 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(Badminton\ Wallpapers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    margin-top: 35px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.content h1{
+    color: #fff;
+    font-size: 100px;
+    text-shadow: -2px 2px 4px #000;
+}
+.color{
+    color: #EA2027;
+}
+.paragraf{
+    position: absolute;
+    top: 54%;
+    left: 31%;
+    color: orange;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+main h1{
+    text-align: center;
+    margin-top: 20px;
+}
+main p{
+    text-indent: 50px;
+}
+h1{
+    text-align: center;
+}
+.gambar{
+    height: 450px;
+    border: 1px solid #000;
+    margin: 20px;
+    text-indent: 20px;
+    padding-right: 30px;
+    float: left;
+    border-radius: 20px;
+}
+.gambar a{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #2ecc71;
+    margin-left: 120px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
